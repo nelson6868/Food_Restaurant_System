@@ -2,7 +2,7 @@ import React from 'react';
 import './Style.css';
 import Profile from '../image/Profile.JPG';
 
-export default function Customers (props){
+export default function CustomersProfile (props){
 
    return(
     <section className="homesec" id="home">

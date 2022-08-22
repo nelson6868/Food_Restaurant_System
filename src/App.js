@@ -7,6 +7,7 @@ import SubMeanu from './components/SubMeanu';
 import Customers from './components/Customers';
 import FoodMenu from './components/FoodMenu';
 import Footer from './components/Footer';
+import CustomersProfile from './components/CustomersProfile';
 function App() {
   const { products } = data;
   const [cartItems, setCartItems] = useState([]);
@@ -48,7 +49,7 @@ function App() {
           onRemove={onRemove}
         ></Basket>
       </div>
-      <Customers></Customers>
+       <CustomersProfile></CustomersProfile>
       <FoodMenu></FoodMenu>
       <Footer></Footer>
     </div>
